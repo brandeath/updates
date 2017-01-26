@@ -8,6 +8,11 @@
 
 papers to read
 
+Sources:
+
+* [George Fuller](http://inspirehep.net/search?p=exactauthor%3AG.M.Fuller.1&sf=earliestdate)
+* [George Fuller 2](http://inspirehep.net/search?p=exactauthor%3AG.M.Fuller.2&sf=earliestdate)
+
 
 ### Neutrino HEP
 
