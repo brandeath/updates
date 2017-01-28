@@ -51,5 +51,8 @@ $(function() {
 
   var url_itamborra1 = 'http://inspirehep.net/rss?ln=en&p=exactauthor%3AI.Tamborra.1'
   feedparser(url_itamborra1, itamborra1)
+  
+  var url_mengruwu = "http://inspirehep.net/rss?ln=en&p=exactauthor%3AMeng.Ru.Wu.1"
+  feedparser(url_mengruwu, mengruwu)
 
 });
