@@ -16,6 +16,7 @@ body > h1 {
 .feed-card {
   width: 33%;
   float: left;
+  min-height: 38em;
 }
 
 .feed-card > h2 {
@@ -40,7 +41,7 @@ body > h1 {
   font-size: 15pt !important;
 }
 
-.other-groups {
+.other-groups > div {
   position: relative;
   padding: 20px 20px 0px 20px;
   color: #aaa;
@@ -52,6 +53,10 @@ body > h1 {
   transition: all 0.2s;
   overflow: hidden;
   min-height: 88px
+}
+
+.other-groups > div > p {
+  padding: 20px;
 }
 
 .opt {
@@ -143,9 +148,19 @@ li > div {
   top: 73px;
   left: 30px;
   z-index: 3;
-  font-size: 10px;
+  font-size: 13px;
   transition: all 0.8s;
   display: block;
+}
+
+.paper-date {
+  color: black;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.paper-title {
+  max-height: 2em;
 }
 
 .feed li:hover i {
@@ -220,15 +235,25 @@ hr.section:after {
   background: white;
 }
 
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
 .footer {
   text-align: center;
-  padding: 5px;
-  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  height: 60px;
   width: 100%;
 }
 
 .footer > span {
-  display: block;
+  display: inline-block;
 }
 
 .footer > span > a {

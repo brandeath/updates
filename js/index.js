@@ -22,7 +22,7 @@ $(function() {
         for (var i = 0, j = Math.min(values.length, limit); i < j; i++) {
           // console.log(values[i]);
 
-          $(divid).append("<li><a href='" + values[i].link + "' target='_blank'>" + values[i].title + "</a><br><i>" + values[i].author + " et al" + "</i><a href='" + values[i].link + "' class='source'  target='_blank'><i class='fa fa-bookmark' aria-hidden='true'></i></a><div>" + values[i].content + "</div></li>");
+          $(divid).append("<li><a class='paper-title' href='" + values[i].link + "' target='_blank'>" + values[i].title + "</a><br><i>" + values[i].author + " et al" + "</i><i class='paper-date'>"+ values[i].pubDate +"</i><a href='" + values[i].link + "' class='source'  target='_blank'><i class='fa fa-bookmark' aria-hidden='true'></i></a><div>" + values[i].content + "</div></li>");
         }
       }
     });
