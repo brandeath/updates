@@ -11,7 +11,8 @@ $(function() {
   function feedparser(url, divid) {
     $.ajax({
       type: "GET",
-      url: document.location.protocol + '//api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(url),
+      // url: document.location.protocol + '//api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(url),
+      url: 'http:' + '//api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(url),
       dataType: 'json',
       error: function() {
         $(divid).after("<center>Unable to load feed, Incorrect path or invalid feed</center>");
@@ -51,7 +52,7 @@ $(function() {
 
   var url_itamborra1 = 'http://inspirehep.net/rss?ln=en&p=exactauthor%3AI.Tamborra.1'
   feedparser(url_itamborra1, itamborra1)
-  
+
   var url_mengruwu = "http://inspirehep.net/rss?ln=en&p=exactauthor%3AMeng.Ru.Wu.1"
   feedparser(url_mengruwu, mengruwu)
 
