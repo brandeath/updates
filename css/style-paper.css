@@ -1,5 +1,6 @@
 html,body{
-    height: 100%
+    height: 100%;
+    background-color: #FFFCF5;
 }
 
 h1 {
@@ -7,9 +8,9 @@ h1 {
 }
 
 .feed-card {
-  width: 33%;
+  /*width: 33%;*/
   float: left;
-  min-height: 42em;
+  /*min-height: 42em;*/
 }
 
 .feed-card > h2 {
@@ -31,7 +32,7 @@ h1 {
 }
 
 .feed-card > h2 > a > i {
-  font-size: 15pt !important;
+  font-size: 10pt !important;
 }
 
 .other-groups > div {
@@ -89,7 +90,7 @@ h1 {
 
 .feed > li {
   position: relative;
-  padding: 20px 20px 0px 20px;
+  padding: 15px 20px 10px 20px;
   color: #aaa;
   list-style: none;
   background: rgba(255, 255, 255, 0.9);
@@ -113,9 +114,9 @@ h1 {
   text-decoration: underline
 }
 
-.feed > li > div {
-  /*   opacity: 0; */
-  /*   height: 300px; */
+/*.feed > li > div {
+     opacity: 0;
+     height: 300px;
   max-height: 0px;
   overflow: hidden;
   padding: 0 10px;
@@ -130,7 +131,7 @@ h1 {
   box-shadow: 3px 5px 6px 0px rgba(0, 0, 0, 0.1) inset;
   border-radius: 3px;
   overflow: auto;
-}
+}*/
 
 .feed > li:hover {
   /*   padding-bottom:5px; */
@@ -138,6 +139,7 @@ h1 {
 
 .feed li i {
   /*   position:absolute; */
+  color: grey;
   top: 73px;
   left: 30px;
   z-index: 3;
@@ -145,6 +147,7 @@ h1 {
   transition: all 0.8s;
   display: block;
 }
+
 
 .paper-date {
   color: black;
@@ -161,13 +164,13 @@ h1 {
   transition: all 0.2s;
 }
 
-.feed li:active > div {
+/*.feed li:active > div {
   padding: 10px;
   max-height: 300px;
   opacity: 1;
   overflow: auto;
   transition: all 0.4s
-}
+}*/
 
 
 /* .feed li:hover > div {
@@ -184,19 +187,24 @@ h1 {
 }
 
 .source {
-  background: #08d;
+  /*background: grey;*/
   color: #fff;
   font-size: 11px;
   position: absolute;
-  top: 20px;
+  top: 15px;
   right: 5px;
   padding: 5px 5px;
   border-radius: 3px
 }
 
 .source:hover {
-  background: #06a;
-  text-decoration: none
+  background: grey;
+  text-decoration: none;
+}
+
+.source > i:hover {
+   color: white;
+   text-decoration: none;
 }
 
 .feed.dark > li {
@@ -241,7 +249,7 @@ hr {
   padding-top: 15px;
   padding-bottom: 15px;
 
-  height: 60px;
+  /*height: 60px;*/
 /*   width: 100%; */
 }
 
@@ -261,7 +269,7 @@ hr {
 .footer-bottom {
    bottom: 0em;
    /*height: 1em;*/
-   position: fixed;
+   /*position: fixed;*/
    width: 100%;
 }
 
