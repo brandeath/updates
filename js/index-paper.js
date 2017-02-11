@@ -48,8 +48,6 @@ $(function() {
 
 
 
-
-
   var url_graffelt1 = 'http://inspirehep.net/rss?ln=en&p=exactauthor%3AGeorg.G.Raffelt.1';
   feedparser(url_graffelt1, graffelt)
 
@@ -76,5 +74,23 @@ $(function() {
 
   var url_mengruwu = "http://inspirehep.net/rss?ln=en&p=exactauthor%3AMeng.Ru.Wu.1"
   feedparser(url_mengruwu, mengruwu)
+
+  var url_shashankshalgar = "http://inspirehep.net/rss?ln=en&p=exactauthor%3AS.Shalgar.1"
+  feedparser(url_shashankshalgar, shashankshalgar)
+
+  var url_vcirigliano1 = "http://inspirehep.net/rss?ln=en&p=exactauthor%3AV.Cirigliano.1"
+  feedparser(url_vcirigliano1, vcirigliano1)
+
+
+  var url_mwparis1 ="http://inspirehep.net/rss?ln=en&p=exactauthor%3AM.W.Paris.1"
+  feedparser(url_mwparis1, mwparis1)
+
+
+  var url_ckishimoto1 ="http://inspirehep.net/rss?ln=en&p=exactauthor%3AC.T.Kishimoto.1"
+  feedparser(url_ckishimoto1, ckishimoto1)
+
+  var url_afriedland = "http://inspirehep.net/rss?ln=en&p=exactauthor%3AA.Friedland.1"
+  feedparser(url_afriedland, afriedland)
+
 
 });

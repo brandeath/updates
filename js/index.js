@@ -56,4 +56,9 @@ $(function() {
   var url_mengruwu = "http://inspirehep.net/rss?ln=en&p=exactauthor%3AMeng.Ru.Wu.1"
   feedparser(url_mengruwu, mengruwu)
 
+  var url_shashankshalgar = "http://inspirehep.net/rss?ln=en&p=exactauthor%3AS.Shalgar.1"
+  feedparser(url_shashankshalgar, shashankshalgar)
+
+
+
 });
