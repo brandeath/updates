@@ -92,5 +92,9 @@ $(function() {
   var url_afriedland = "http://inspirehep.net/rss?ln=en&p=exactauthor%3AA.Friedland.1"
   feedparser(url_afriedland, afriedland)
 
+  var url_hnagakura = "http://inspirehep.net/rss?ln=en&p=exactauthor%3AH.Nagakura.1"
+  feedparser(url_hnagakura, hnagakura )
+
+
 
 });
